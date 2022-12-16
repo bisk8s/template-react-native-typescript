@@ -28,7 +28,7 @@ target 'HelloWorld' do
   
 end
 
-target 'HelloWorld Dev' do
+target 'HelloWorldDev' do
   config = use_native_modules!
   use_react_native!(
     :path => config[:reactNativePath],
